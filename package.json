@@ -1,0 +1,14 @@
+{
+	"name": "weather",
+	"version": "1.0.0",
+	"private": true,
+	"author": {
+		"name": "finntrannn",
+		"url": "https://finn.id.vn"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alden-bot/Weather"
+	},
+	"dependencies": {}
+}

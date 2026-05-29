@@ -1,0 +1,43 @@
+{
+	"plugin": {
+		"weather": {
+			"desc": "Tra cứu thời tiết theo vị trí",
+			"usage": "[địa điểm]",
+			"wait_location": "📍 Hãy chia sẻ vị trí của bạn để tra cứu thời tiết.",
+			"timeout": "⏳ Đã hết thời gian chờ vị trí.",
+			"not_location": "⚠️ Đó không phải vị trí. Hãy dùng tính năng gửi vị trí của Zalo.",
+			"searching_name": "🔍 Đang tra cứu thời tiết cho \"{location}\"...",
+			"not_found": "❌ Không tìm thấy địa điểm \"{location}\".",
+			"searching_coords": "🔍 Đang tra cứu thời tiết cho vị trí đã chia sẻ...",
+			"error": "❌ Đã xảy ra lỗi khi tra cứu thời tiết.",
+			"result": "**Thời tiết tại {locationName}{region}{country}**\n<indent size=\"1\"><raw>- Tình trạng: {emoji} {label}\n- Nhiệt độ: {temp}°C (cảm giác {feelsLike}°C)\n- Độ ẩm: {humidity}%\n- Gió: {windSpeed} km/h\n- Lượng mưa: {precipitation} mm</raw></indent>\n\n⏱️ Cập nhật: {time}"
+		}
+	},
+	"wmo": {
+		"0": "Trời quang",
+		"1": "Hầu như không có mây",
+		"2": "Có mây một phần",
+		"3": "Nhiều mây",
+		"45": "Sương mù",
+		"48": "Sương mù có băng",
+		"51": "Mưa phùn nhẹ",
+		"53": "Mưa phùn vừa",
+		"55": "Mưa phùn dày",
+		"61": "Mưa nhẹ",
+		"63": "Mưa vừa",
+		"65": "Mưa to",
+		"71": "Tuyết nhẹ",
+		"73": "Tuyết vừa",
+		"75": "Tuyết dày",
+		"77": "Hạt tuyết",
+		"80": "Mưa rào nhẹ",
+		"81": "Mưa rào vừa",
+		"82": "Mưa rào nặng hạt",
+		"85": "Mưa tuyết nhẹ",
+		"86": "Mưa tuyết nặng",
+		"95": "Giông bão",
+		"96": "Giông kèm mưa đá nhẹ",
+		"99": "Giông kèm mưa đá nặng",
+		"unknown": "Mã {code}"
+	}
+}

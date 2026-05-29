@@ -1,0 +1,11 @@
+{
+	"name": "Weather",
+	"version": "1.0.0",
+	"description": "Weather forecasting using Open-Meteo API",
+	"author": "finntrannn",
+	"main": "src/main.ts",
+	"apiVersion": "1.0.0",
+	"permissions": {
+		"weather.command": 0
+	}
+}
